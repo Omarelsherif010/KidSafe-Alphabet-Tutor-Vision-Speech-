@@ -1,0 +1,136 @@
+.settings-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.settings-panel {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+
+.settings-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.close-button {
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.settings-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.settings-section h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.setting-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.setting-item:last-child {
+  margin-bottom: 0;
+}
+
+.setting-item label {
+  font-weight: 500;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting-item input[type="range"] {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.setting-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.setting-item select {
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.setting-item input[type="number"] {
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.clear-memory-button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.clear-memory-button:hover {
+  background: #f57c00;
+  transform: translateY(-1px);
+}
+
+.setting-item small {
+  color: #666;
+  font-size: 12px;
+  margin-top: 5px;
+}
