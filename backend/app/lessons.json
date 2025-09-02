@@ -1,0 +1,44 @@
+{
+  "A": {
+    "phoneme": "/æ/",
+    "phoneme_clue": "ah",
+    "examples": ["Apple", "Ant", "Airplane"],
+    "activity": "Can you find something in the room that starts with the letter A?",
+    "prompt": "This is the letter A. It makes the 'ah' sound, like in apple. Can you say 'ah'?"
+  },
+  "B": {
+    "phoneme": "/b/",
+    "phoneme_clue": "buh",
+    "examples": ["Ball", "Banana", "Bear"],
+    "activity": "Let's pretend to be a buzzing bee! Can you buzz like a bee? B-b-b-b.",
+    "prompt": "Great! Now for the letter B. It makes the 'buh' sound. Listen: 'buh'. Your turn!"
+  },
+  "C": {
+    "phoneme": "/k/",
+    "phoneme_clue": "kuh",
+    "examples": ["Cat", "Car", "Cake"],
+    "activity": "Can you make a clicking sound with your tongue? That's the 'c' sound!",
+    "prompt": "Next is C. It makes a 'kuh' sound, like in cat. Can you say 'kuh'?"
+  },
+  "D": {
+    "phoneme": "/d/",
+    "phoneme_clue": "duh",
+    "examples": ["Dog", "Duck", "Door"],
+    "activity": "Can you tap your tongue behind your teeth? That's how we make the 'd' sound!",
+    "prompt": "Now let's learn D. It makes a 'duh' sound, like in dog. Say 'duh' with me!"
+  },
+  "E": {
+    "phoneme": "/ɛ/",
+    "phoneme_clue": "eh",
+    "examples": ["Elephant", "Egg", "Eye"],
+    "activity": "Open your mouth like you're surprised and say 'eh'!",
+    "prompt": "Here's the letter E. It makes an 'eh' sound, like in elephant. Can you say 'eh'?"
+  },
+  "F": {
+    "phoneme": "/f/",
+    "phoneme_clue": "fuh",
+    "examples": ["Fish", "Flower", "Fire"],
+    "activity": "Bite your bottom lip gently and blow air out. That's the 'f' sound!",
+    "prompt": "Time for F! It makes a 'fuh' sound, like in fish. Try saying 'fuh'!"
+  }
+}
